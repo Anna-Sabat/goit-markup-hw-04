@@ -72,10 +72,7 @@ align-items: center;
 .nav-list {
 display: flex;
 gap: 40px;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .activ-studio {
     position: relative;
@@ -107,12 +104,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 24px 0;
     display: block;
     width: calc((100%-72px) / 4);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover {color: #404bbf;}
 .nav-link:focus {color: #404BBF;}
 
-.nav-link:active {
+.studio, .activ-studio:active {
 color: #4D5AE5;
 }
 
@@ -270,11 +268,6 @@ color: #2e2f42;
 margin-bottom: 72px;
 }
 
-.box-our {
-    width: 360px;
-    height: 420px;
-}
-
 .team-list {
 display: flex;
 align-items: center;
@@ -390,8 +383,6 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .overlay-img {
 position: relative;
 overflow: hidden;
-width: 360px;
-height: 300px;
 }
 
 .overlay {
@@ -405,6 +396,7 @@ padding: 40px 32px;
 position: absolute;
 top: 0;
 left: 0;
+margin-top: 0;
 width: 100%;
 height: 100%;
 transform: translateY(100%);
@@ -510,5 +502,9 @@ margin-bottom: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list .footer-icon:focus {background-color: #31d0aa;}
-.footer-list .footer-icon:hover {background-color: #31d0aa;}
+.footer-list .footer-icon:focus {
+    background-color: #31d0aa;
+}
+.footer-list .footer-icon:hover {
+    background-color: #31d0aa;
+}
