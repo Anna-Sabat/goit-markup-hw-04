@@ -447,7 +447,6 @@ text-transform: uppercase;
 text-decoration: none;
 color: #4d5ae5;
 display: inline-block;
-margin-bottom: 16px;
 }
 
 .accent-logo {
@@ -502,9 +501,9 @@ margin-bottom: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list .footer-icon:focus {
+.footer-icon:focus {
     background-color: #31d0aa;
 }
-.footer-list .footer-icon:hover {
+.footer-icon:hover {
     background-color: #31d0aa;
 }
